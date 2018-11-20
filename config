@@ -1,0 +1,14 @@
+[default]
+region = us-east-1
+
+[profile ippon-aws]
+region = us-east-1
+google_config.ask_role = False
+google_config.keyring = False
+google_config.duration = 3600
+google_config.google_idp_id = C00lefphs
+google_config.role_arn = arn:aws:iam::326646175787:role/role-admin-sre-ops-federated
+google_config.google_sp_id = 563310275444
+google_config.u2f_disabled = False
+google_config.google_username = clumpkin@ippon.fr
+
